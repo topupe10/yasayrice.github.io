@@ -1,0 +1,154 @@
+    /* Reset some default styles */
+    body, ul, li {
+        margin: 0;
+        padding: 0;
+        list-style: none;
+        font-family: 'Century Gothic', sans-serif;
+    }
+
+    /* CSS for header styling */
+    header {
+        background-color: #337ab7; /* Set the background color to a shade of blue */
+        color: white; /* Set text color to white */
+        text-align: center; /* Center-align the content */
+        padding: 10px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    
+    header .logo {
+        font-size: 20px; /* Increase the font size */
+        margin: 0;
+    }
+    
+    /* Style the navigation menu links */
+    nav ul {
+        list-style: none; /* Remove the default list styles */
+        padding: 0;
+    }
+    
+    nav ul li {
+        display: inline; /* Display list items horizontally */
+        margin: 0 15px; /* Add margin between menu items */
+    }
+    
+    nav ul li a {
+        text-decoration: none; /* Remove underline */
+        color: white; /* Set text color to white */
+        font-size: 15px; /* Set the font size for links */
+    }
+    
+    /* Style the icons */
+    nav ul li a i {
+        margin-right: 5px; /* Add some margin to the right of the icons */
+    }
+    
+    /* Style links on hover */
+    nav ul li a:hover {
+        text-decoration: none; /* Add underline on hover */
+        color:#333
+    }
+    nav ul li.active a {
+        color: #333; /* Change this to the desired color */
+        font-size: 18px;
+        font-weight: bold;
+    }
+
+    /* Styles for the Milling Services page */
+    .dashboard-content {
+        max-width: 800px;
+        margin: 0 auto;
+    }
+
+    h1 {
+        font-size: 24px;
+        margin-bottom: 20px;
+    }
+
+    form {
+        font-size: 16px;
+    }
+
+    label {
+        display: block;
+        margin-top: 10px;
+        font-weight: bold;
+    }
+    .table-condensed, .table-condensed th, .table-condensed td, .colspan tr {
+        border: none;
+    }
+
+    .count-box h2 {
+        font-size: 18px;
+    }
+
+    .count-box p {
+        font-size: 24px;
+        margin-top: 5px;
+        color: #007BFF;
+    }
+
+    .dashboard-quicklinks {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    /* Add this to your existing CSS */
+    .quicklink {
+        background: rgba(16, 98, 221, 0.2);
+        border: 1px solid #ddd;
+        padding: 10px;
+        border-radius: 5px;
+        text-align: center;
+        width: 220px;
+        height: 70px;
+    }
+
+    .quicklink h2 {
+        font-size: 14px; /* Adjust font size as needed */
+        margin: 5px 0; /* Adjust margin as needed */
+    }
+
+    .quicklink h1 {
+        font-size: 16px; /* Adjust font size as needed */
+        margin: 5px 0; /* Adjust margin as needed */
+    }
+
+    .quicklink p {
+        font-size: 12px; /* Adjust font size as needed */
+    }
+
+    .quicklink a {
+        text-decoration: none;
+        color: black;
+        font-size: 12px; /* Adjust font size as needed */
+    }
+
+    /* Add this to your existing CSS */
+    .dashboard-chart {
+        margin-bottom: 20px; /* Add some margin between charts */
+    }
+    
+    .chart-container {
+        border: 1px solid #ddd;
+        border-radius: 5px;
+        padding: 10px;
+        background-color: #fff;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        margin-bottom: 20px; /* Adjust as needed */
+    }
+    
+    .chart-container h3 {
+        text-align: center;
+        margin-bottom: 10px;
+    }
+    .logo {
+        display: flex;
+        align-items: center;
+    }
+    
+    .logo-image {
+        width: 50px; /* Adjust the width as needed */
+        margin-right: 10px; /* Add margin to separate the logo from the text */
+    }

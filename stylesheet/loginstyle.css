@@ -1,0 +1,96 @@
+body {
+    background-image: url('/Yasay/WHEAT.gif');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-color: none;
+    font-family: 'Century Gothic', sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+.login-container {
+    background: rgba(255, 255, 255, 0.4);
+    width: 300px;
+    text-align: center;
+    padding: 50px;
+    border-radius: 10px;
+    border: none;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
+}
+.login-container label {
+    text-align: left;
+    display: block;
+    margin-bottom: 5px;
+}
+.login-container .input-container {
+    position: relative;
+    width: 100%;
+}
+.login-container .input-container input[type="text"],
+.login-container .input-container input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    margin: 0;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+    border: none;
+    border-radius: 5px;
+    box-sizing: border-box;
+    background: transparent;
+}
+.login-container .input-container label {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    pointer-events: none;
+    transition: 0.2s all;
+}
+.login-container .input-container input:focus ~ label,
+.login-container .input-container input:valid ~ label {
+    top: -15px;
+    font-size: 12px;
+    background: none;
+}
+.login-container input[type="submit"] {
+    width: 100%;
+    padding: 10px;
+    font-weight: bold;
+    background-color: rgba(240, 213, 62, 0.7);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+    border: none;
+    color: black;
+    border-radius: 3px;
+    cursor: pointer;
+}
+.input-container input:-webkit-autofill,
+.input-container input:-webkit-autofill:focus {
+    -webkit-text-fill-color: #333; /* Text color (change to match your design) */
+    transition: background-color 5000s ease-in-out 0s; /* Change the duration to your preference */
+}
+.company-logo {
+    text-align: center;
+}
+.company-logo img {
+    max-width: 100%;
+    height: auto;
+}
+p{
+    font-size: 20px;
+}
+hr {
+    border: none; /* Remove the default border */
+    height: 1px; /* Set the height of the horizontal rule */
+    background-color: #333; /* Set the color of the horizontal rule */
+    margin: 20px 0; /* Add margin for spacing above and below the rule */
+}
+.alert.loginError {
+    background: rgba(236, 208, 208, 0.725); /* Background color with opacity */
+    padding: 10px; /* Add some padding for better visibility */
+    border: none; /* Add a border to the error message */
+    border-radius: 5px; /* Add rounded corners */
+    display: none;
+    color: red;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+}

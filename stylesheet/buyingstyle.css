@@ -1,0 +1,212 @@
+    /* Reset some default styles */
+    body, ul, li {
+        margin: 0;
+        padding: 0;
+        list-style: none;
+        font-family: 'Century Gothic', sans-serif;
+    }
+
+    /* CSS for header styling */
+    header {
+        background-color: #337ab7; /* Set the background color to a shade of blue */
+        color: white; /* Set text color to white */
+        text-align: center; /* Center-align the content */
+        padding: 10px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    
+    header .logo {
+        font-size: 20px; /* Increase the font size */
+        margin: 0;
+    }
+    
+    /* Style the navigation menu links */
+    nav ul {
+        list-style: none; /* Remove the default list styles */
+        padding: 0;
+    }
+    
+    nav ul li {
+        display: inline; /* Display list items horizontally */
+        margin: 0 15px; /* Add margin between menu items */
+    }
+    
+    nav ul li a {
+        text-decoration: none; /* Remove underline */
+        color: white; /* Set text color to white */
+        font-size: 15px; /* Set the font size for links */
+    }
+    
+    /* Style the icons */
+    nav ul li a i {
+        margin-right: 5px; /* Add some margin to the right of the icons */
+    }
+    
+    /* Style links on hover */
+    nav ul li a:hover {
+        text-decoration: none; /* Add underline on hover */
+        color:#333
+    }
+    nav ul li.active a {
+        color: #333; /* Change this to the desired color */
+        font-size: 18px;
+        font-weight: bold;
+    }
+
+    /* Styles for the Milling Services page */
+    .content {
+        max-width: 1000px;
+        margin: 0 auto;
+        padding: 20px;
+        background-color: #fff;
+    }
+
+    h1 {
+        font-size: 24px;
+        margin-bottom: 20px;
+    }
+
+    form {
+        font-size: 16px;
+    }
+
+    label {
+        display: block;
+        margin-top: 10px;
+        font-weight: bold;
+    }
+
+    select, input[type="text"], input[type="date"] {
+        width: 100%;
+        padding: 10px;
+        margin-top: 5px;
+        border: 1px solid #ccc;
+        border-radius: 4px;
+        font-size: 16px;
+    }
+
+    input[type="submit"] {
+        background-color: #333;
+        color: #fff;
+        padding: 10px 20px;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+        font-size: 16px;
+        margin-top: 20px;
+    }
+
+    input[type="submit"]:hover {
+        background-color: #555;
+    }
+
+    /* Add this style for the modal */
+    .modal {
+        display: none;
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background-color: rgba(0, 0, 0, 0.5);
+    }
+
+    .modal-content {
+        background-color: #fff;
+        margin: 15% auto;
+        padding: 20px;
+        border: 1px solid #ddd;
+        border-radius: 5px;
+        max-width: 600px;
+        position: relative;
+    }
+
+    .close {
+        color: #aaa;
+        float: right;
+        font-size: 30px;
+        font-weight: bold;
+        cursor: pointer;
+    }
+
+    .close:hover {
+        color: #333;
+    }
+    .table-condensed, .table-condensed th, .table-condensed td, .colspan tr {
+        border: none;
+    }
+    .special-table1 {
+        width: 100%;
+        border-collapse: collapse;
+        margin-bottom: 20px;
+    }
+
+    .special-table1 table, th, td {
+        border: 1px solid #ccc;
+    }
+
+    .special-table1 th, td {
+        padding: 10px;
+        text-align: left;
+    }
+    .special-table1 th {
+        background-color: rgba(132, 210, 232, 0.4);
+    }
+    .special-table1 .btn {
+        padding: 5px 10px;
+        background-color: #3498db;
+        color: #fff;
+        border: none;
+        border-radius: 3px;
+        cursor: pointer;
+    }
+
+    .special-table1 .btn-primary {
+        background-color: #3498db;
+    }
+
+    .special-table1 .btn-secondary {
+        background-color: #666;
+    }
+
+    .special-table1 .btn:hover {
+        background-color: #258cd1;
+    }
+    .special-table {
+        border: 1px solid #ccc;
+    }
+
+    .special-table th, .special-table td {
+        padding: 5px;
+        border: 1px solid #ccc;
+    }
+
+    .special-table th {
+        background-color: rgba(132, 210, 232, 0.4);
+    }
+    .container-box {
+        width: 100%; /* Adjust the width as needed */
+        margin: 20px auto; /* Center the box on the page */
+        padding: 20px;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Box shadow with a slight transparency */
+        border-radius: 5px;
+    }
+    .container-box1 {
+        width: 100%; /* Adjust the width as needed */
+        margin: 20px auto; /* Center the box on the page */
+        padding: 20px;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Box shadow with a slight transparency */
+        border: 1px solid #ccc;
+        border-radius: 5px;
+    }
+    .logo {
+        display: flex;
+        align-items: center;
+    }
+    
+    .logo-image {
+        width: 50px; /* Adjust the width as needed */
+        margin-right: 10px; /* Add margin to separate the logo from the text */
+    }
